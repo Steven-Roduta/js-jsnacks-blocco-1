@@ -18,9 +18,14 @@ for ( let i = 0; i = utenteName.length ; i++){
 
     const nameInvited = names [i];
 
-    if (nameInvited.length = names){
+    if (nameInvited.length === names){
         utenteName.push (names)
-        console.log(utenteName,names);
+        alert ('invited')
+        
+    }   else if(utenteName !== names){
+        alert ('Not invited!')
     }
 
+
+    console.log(utenteName,names);
 }
